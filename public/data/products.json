@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Car Engine Plug",
+    "price": 25.99,
+    "img": "/assets/images/products/1.png",
+    "description": "High-quality car engine plug designed for optimal performance and durability.",
+    "category": "Engine Parts",
+    "inStock": true
+  },
+  {
+    "id": 2,
+    "name": "Car Air Filter",
+    "price": 19.99,
+    "img": "/assets/images/products/2.png",
+    "description": "Efficient air filter for cars that enhances engine performance and fuel efficiency.",
+    "category": "Air Filters",
+    "inStock": true
+  },
+  {
+    "id": 3,
+    "name": "Cools LED Light",
+    "price": 14.99,
+    "img": "/assets/images/products/3.png",
+    "description": "Bright and energy-saving LED light for improved visibility during night driving.",
+    "category": "Lighting",
+    "inStock": true
+  },
+  {
+    "id": 4,
+    "name": "Car Windshield Wiper",
+    "price": 12.50,
+    "img": "/assets/images/products/4.png",
+    "description": "Durable windshield wiper providing clear visibility during heavy rain.",
+    "category": "Wipers",
+    "inStock": false
+  },
+  {
+    "id": 5,
+    "name": "Car Tire Pressure Gauge",
+    "price": 8.99,
+    "img": "/assets/images/products/5.png",
+    "description": "Portable tire pressure gauge for accurate measurement and tire maintenance.",
+    "category": "Tools",
+    "inStock": true
+  },
+  {
+    "id": 6,
+    "name": "Car Battery Charger",
+    "price": 39.99,
+    "img": "/assets/images/products/6.png",
+    "description": "Smart car battery charger with fast charging and auto shut-off features.",
+    "category": "Electronics",
+    "inStock": true
+  },
+  {
+    "id": 7,
+    "name": "Car Seat Cover",
+    "price": 59.99,
+    "img": "/assets/images/products/7.png",
+    "description": "Premium leather car seat cover that offers comfort and protection.",
+    "category": "Accessories",
+    "inStock": true
+  },
+  {
+    "id": 8,
+    "name": "Car Steering Wheel Cover",
+    "price": 15.99,
+    "img": "/assets/images/products/8.png",
+    "description": "Non-slip steering wheel cover for improved grip and comfort.",
+    "category": "Accessories",
+    "inStock": false
+  },
+  {
+    "id": 9,
+    "name": "Car Floor Mat",
+    "price": 24.99,
+    "img": "/assets/images/products/9.png",
+    "description": "All-weather floor mat that protects your car's interior from dirt and moisture.",
+    "category": "Accessories",
+    "inStock": true
+  },
+  {
+    "id": 10,
+    "name": "Car Roof Rack",
+    "price": 129.99,
+    "img": "/assets/images/products/10.png",
+    "description": "Heavy-duty roof rack for carrying luggage and gear on long trips.",
+    "category": "Carriers",
+    "inStock": true
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "img": "/assets/images/team/1.jpg",
+    "job": "Car Engine Plug",
+    "expertise": "Engine Expertise"
+  },
+  {
+    "id": 2,
+    "name": "Sarah Smith",
+    "img": "/assets/images/team/2.jpg",
+    "job": "Car Air Filter",
+    "expertise": "Air Filter Expertise"
+  },
+  {
+    "id": 3,
+    "name": "Michael Johnson",
+    "img": "/assets/images/team/3.jpg",
+    "job": "Cools LED Light",
+    "expertise": "Lighting Systems Expertise"
+  },
+  {
+    "id": 4,
+    "name": "Emily Davis",
+    "img": "/assets/images/team/1.jpg",
+    "job": "Car Windshield Wiper",
+    "expertise": "Wiper Systems Expertise"
+  },
+  {
+    "id": 5,
+    "name": "James Wilson",
+    "img": "/assets/images/team/2.jpg",
+    "job": "Car Tire Pressure Gauge",
+    "expertise": "Tire & Pressure Systems Expertise"
+  },
+  {
+    "id": 6,
+    "name": "Jessica Lee",
+    "img": "/assets/images/team/3.jpg",
+    "job": "Car Battery Charger",
+    "expertise": "Battery Systems Expertise"
+  }
+]
