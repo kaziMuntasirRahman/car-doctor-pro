@@ -2,7 +2,7 @@
 
 import { signIn, useSession } from "next-auth/react";
 import Image from "next/image";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 
 const icons = [
   {
@@ -21,9 +21,10 @@ const icons = [
 
 const SocialSignIn = () => {
   const router = useRouter()
-  const searchParams = useSearchParams()
+  // const searchParams = useSearchParams()
   const session = useSession()
-  const path = searchParams.get('redirect')
+  // const path = searchParams.get('redirect')
+  const path = '/signin'
 
   const handleSocialSignIn = async (provider) => {
     console.log(provider);
