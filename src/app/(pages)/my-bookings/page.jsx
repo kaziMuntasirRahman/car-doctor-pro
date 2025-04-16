@@ -16,7 +16,7 @@ const CartDetails = () => {
     const fetchBookings = async () => {
       if (session?.data?.user?.email) {
         const email = session.data.user.email;
-        const response = await fetch(`http://localhost:3000/api/my-bookings/${email}`)
+        const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/my-bookings/${email}`)
         const data = await response.json()
         console.log(data);
         setBookings(data)
@@ -32,7 +32,7 @@ const CartDetails = () => {
       const proceed = confirm('Do you really want to delete?')
       if (!proceed) return;
 
-      const res = await fetch(`http://localhost:3000/api/my-bookings/delete/${_id}`, { method: "DELETE" })
+      const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/my-bookings/delete/${_id}`, { method: "DELETE" })
       const data = await res.json()
       console.log(data);
       if (data.deletedCount > 0) {

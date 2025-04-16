@@ -1,4 +1,5 @@
 import { connectDB } from '@/lib/mongoDB'
+import { NextResponse } from 'next/server';
 
 export const POST = async request => {
   const bookingInfo = await request.json()
@@ -7,7 +8,7 @@ export const POST = async request => {
   try {
     const { bookingCollection } = await connectDB()
     const result = await bookingCollection.insertOne(bookingInfo)
-    return Response.json({ message: 'Service Booked Successfully.', result })
+    return NextResponse.json({ message: 'Service Booked Successfully.', result })
   } catch (error) {
     console.log(error)
   }

@@ -1,5 +1,6 @@
 import { connectDB } from '@/lib/mongoDB'
 import bcrypt from 'bcrypt' 
+import { NextResponse } from 'next/server'
 
 export const POST = async request => {
   try {
@@ -9,13 +10,13 @@ export const POST = async request => {
     const { userCollection } = db
     const existingUser = await userCollection.findOne({ email: newUser.email })
     if (existingUser) {
-      return Response.json({ message: 'User Exists' }, { status: 409 })
+      return NextResponse.json({ message: 'User Exists' }, { status: 409 })
     }
     newUser.password = bcrypt.hashSync(newUser.password, 14)
-    const response = await userCollection.insertOne(newUser)
-    return Response.json({ message: 'User Created' }, { status: 200 })
+    const NextResponse = await userCollection.insertOne(newUser)
+    return NextResponse.json({ message: 'User Created' }, { status: 200 })
   } catch (error) {
     console.log(error.message)
-    return Response.json({ message: 'Server Error' }, { status: 500 })
+    return NextResponse.json({ message: 'Server Error' }, { status: 500 })
   }
 }

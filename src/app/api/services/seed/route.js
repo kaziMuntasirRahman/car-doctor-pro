@@ -1,5 +1,6 @@
 import { connectDB } from '@/lib/mongoDB'
 import { services } from '@/lib/services'
+import { NextResponse } from 'next/server'
 
 export const GET = async () => {
   const { serviceCollection } = await connectDB()
@@ -7,7 +8,7 @@ export const GET = async () => {
   try {
     await serviceCollection.deleteMany()
     const response = await serviceCollection.insertMany(services)
-    return Response.json({ message: 'Seeded' })
+    return NextResponse.json({ message: 'Seeded' })
   } catch (error) {
     console.log(error)
   }
