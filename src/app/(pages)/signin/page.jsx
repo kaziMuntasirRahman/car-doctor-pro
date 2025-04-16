@@ -35,7 +35,6 @@ const SignIn = () => {
 
   return (
     <div className="pt-5 max-w-6xl mx-auto min-h-screen" data-theme='car-doctor-light'>
-      <Navbar authPage />
       <div className="flex justify-evenly gap-16 -mt-5">
         <Image src="/assets/images/login/login.svg" alt="login" width={460} height={500} />
         <section className="w-1/2 px-[75px] py-10 rounded-[10px] border border-[#d0d0d0] flex flex-col items-center gap-[30px] h-fit">

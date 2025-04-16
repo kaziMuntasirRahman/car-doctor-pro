@@ -148,5 +148,155 @@ export const services = [
         "details": "Affordable solutions using genuine parts and skilled professionals."
       }
     ]
+  },
+  {
+    "service_id": "07",
+    "title": "Tire Rotation & Balancing",
+    "img": "https://images.unsplash.com/photo-1605050825101-6bde8e22125f",
+    "price": "25.00",
+    "description": "Ensure even tire wear and smooth rides with our professional tire rotation and balancing service.",
+    "facility": [
+      {
+        "name": "Instant Car Services",
+        "details": "Quick tire service to improve vehicle handling and extend tire lifespan."
+      },
+      {
+        "name": "24/7 Quality Service",
+        "details": "Emergency tire services available anytime you need them."
+      },
+      {
+        "name": "Easy Customer Service",
+        "details": "Friendly technicians who explain tire conditions clearly."
+      },
+      {
+        "name": "Quality Cost Service",
+        "details": "Affordable pricing for essential tire maintenance."
+      }
+    ]
+  },
+  {
+    "service_id": "08",
+    "title": "Brake Inspection & Repair",
+    "img": "https://images.unsplash.com/photo-1558981806-ec527fa84c39",
+    "price": "50.00",
+    "description": "Comprehensive brake system check and repair to ensure your safety on the road.",
+    "facility": [
+      {
+        "name": "Instant Car Services",
+        "details": "Fast brake diagnostics and same-day repairs available."
+      },
+      {
+        "name": "24/7 Quality Service",
+        "details": "Emergency brake services whenever you need them."
+      },
+      {
+        "name": "Easy Customer Service",
+        "details": "Honest assessments about your brake system's condition."
+      },
+      {
+        "name": "Quality Cost Service",
+        "details": "Competitive pricing for crucial safety repairs."
+      }
+    ]
+  },
+  {
+    "service_id": "09",
+    "title": "AC Repair & Recharge",
+    "img": "https://images.unsplash.com/photo-1600861195091-690c92f1d2cc",
+    "price": "60.00",
+    "description": "Professional air conditioning service to keep you cool and comfortable on the road.",
+    "facility": [
+      {
+        "name": "Instant Car Services",
+        "details": "Quick AC diagnostics and refrigerant recharge."
+      },
+      {
+        "name": "24/7 Quality Service",
+        "details": "Emergency AC repairs during extreme weather."
+      },
+      {
+        "name": "Easy Customer Service",
+        "details": "Clear explanations of AC issues and solutions."
+      },
+      {
+        "name": "Quality Cost Service",
+        "details": "Fair pricing for climate control system repairs."
+      }
+    ]
+  },
+  {
+    "service_id": "10",
+    "title": "Wheel Alignment",
+    "img": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633",
+    "price": "40.00",
+    "description": "Precision wheel alignment to improve handling, fuel efficiency, and tire life.",
+    "facility": [
+      {
+        "name": "Instant Car Services",
+        "details": "Quick alignment checks and adjustments."
+      },
+      {
+        "name": "24/7 Quality Service",
+        "details": "Available for emergency alignment issues."
+      },
+      {
+        "name": "Easy Customer Service",
+        "details": "Technicians explain alignment issues in simple terms."
+      },
+      {
+        "name": "Quality Cost Service",
+        "details": "Affordable alignment for better driving experience."
+      }
+    ]
+  },
+  {
+    "service_id": "11",
+    "title": "Car Detailing",
+    "img": "https://images.unsplash.com/photo-1607860108855-64acf2078ed9",
+    "price": "75.00",
+    "description": "Professional interior and exterior cleaning to restore your car's showroom shine.",
+    "facility": [
+      {
+        "name": "Instant Car Services",
+        "details": "Quick yet thorough detailing services."
+      },
+      {
+        "name": "24/7 Quality Service",
+        "details": "Flexible scheduling for busy customers."
+      },
+      {
+        "name": "Easy Customer Service",
+        "details": "Customizable detailing packages."
+      },
+      {
+        "name": "Quality Cost Service",
+        "details": "Premium cleaning at reasonable prices."
+      }
+    ]
+  },
+  {
+    "service_id": "12",
+    "title": "Diagnostic Check",
+    "img": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7",
+    "price": "35.00",
+    "description": "Comprehensive computer diagnostics to identify any hidden issues with your vehicle.",
+    "facility": [
+      {
+        "name": "Instant Car Services",
+        "details": "Quick scan and interpretation of trouble codes."
+      },
+      {
+        "name": "24/7 Quality Service",
+        "details": "Available for emergency diagnostic needs."
+      },
+      {
+        "name": "Easy Customer Service",
+        "details": "Clear explanation of diagnostic results."
+      },
+      {
+        "name": "Quality Cost Service",
+        "details": "Affordable scanning with professional insights."
+      }
+    ]
   }
 ]

@@ -61,19 +61,24 @@ const navLinks = [
     link: '/'
   },
   {
-    id: 2,
-    title: 'About',
-    link: '/about'
-  },
-  {
     id: 3,
     title: 'Services',
     link: '/services'
   },
   {
+    id: 6,
+    title: 'My Bookings',
+    link: '/my-bookings'
+  },
+  {
     id: 4,
     title: 'Blog',
     link: '/blog'
+  },
+  {
+    id: 2,
+    title: 'About',
+    link: '/about'
   },
   {
     id: 5,

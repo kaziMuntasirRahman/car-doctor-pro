@@ -1,9 +1,11 @@
+import { getServices } from "@/services/getServices";
 import Image from "next/image";
 import Link from "next/link";
 import { FaArrowRight } from 'react-icons/fa'
-import { services } from "@/lib/services";
+// import { services } from "@/lib/services";
 
-const ServiceArea = () => {
+const ServiceArea = async () => {
+  const services = await getServices()
   return (
     <div className="flex flex-col items-center gap-5 mt-[130px]">
       <p className="section-title text-center">Service</p>
@@ -25,14 +27,14 @@ const ServiceArea = () => {
 export default ServiceArea;
 
 const ServiceAreaCart = ({ service }) => {
-  const { service_id, title = "Electrical System", img = "/assets/images/services/1.jpg", price } = service;
+  const { _id, title = "Electrical System", img = "/assets/images/services/1.jpg", price } = service;
   return (
     <div className="p-[25px] pb-5 rounded-[10px] border border-[#e8e8e8] flex flex-col gap-5">
-      <Image alt={title} src={img} height={400} width={500} className="rounded-lg flex-1" />
+      <Image alt={title} src={img} width={500} height={400} className="rounded-lg object-cover w-80 h-52" />
       <h2>{title}</h2>
       <div className="flex justify-between items-center">
         <h3 className="section-title">Price:${price}</h3>
-        <Link href={`/services/${service_id}`}>
+        <Link href={`/services/${_id}`}>
           <FaArrowRight className="section-title" />
         </Link>
       </div>

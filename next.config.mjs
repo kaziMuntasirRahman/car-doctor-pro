@@ -1,16 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'i.ibb.co',
-        port: '',
-        pathname: '/**',
-        search: ''
-      }
-    ]
-  }
-};
+    domains: [
+      'i.ibb.co',
+      'images.unsplash.com',
+      'plus.unsplash.com', // ✅ Add this!
+    ],
+  },
+}
 
-export default nextConfig;
+export default nextConfig

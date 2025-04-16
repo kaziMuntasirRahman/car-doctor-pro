@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="footer sm:footer-horizontal bg-black text-white py-10">
+    <footer className="footer sm:footer-horizontal bg-black text-white py-10 px-5">
       <aside>
         <Image src='/assets/logo.svg' width={60} height={60} alt="Car Doctor Logo" />
         <p className="max-w-2xs">

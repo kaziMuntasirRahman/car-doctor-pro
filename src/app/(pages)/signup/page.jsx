@@ -35,9 +35,8 @@ const SignUp = () => {
 
   return (
     <div className="pt-5 max-w-6xl mx-auto min-h-screen" data-theme='car-doctor-light'>
-      <Navbar authPage />
       <div className="flex justify-evenly flex-row-reverse gap-16 -mt-5">
-        <Image src="/assets/images/login/login.svg" alt="login" width={460} height={500} />
+        <Image src="/assets/images/login/login.svg" alt="login" width={460} height={500} className="scale-x-[-1]" />
         <section className="w-1/2 px-16 p-10 rounded-[10px] border border-[#d0d0d0] flex flex-col items-center h-fit ">
           <h1 className="text-center text-[#444444] text-[40px] font-semibold mb-5">Sign Up</h1>
           {/* form start */}
